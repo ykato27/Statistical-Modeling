@@ -1,6 +1,6 @@
-# python-template-repository
+# Statistical-Modeling
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+統計的モデリングのリポジトリです。
 
 
 ## リポジトリ構成
@@ -10,8 +10,7 @@
 ├── README.md
 ├── example
 ├── requirements.txt
-└── src
-    └── __init__.py
+└── notebook
 ```
 
 ## 環境詳細
@@ -26,12 +25,12 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Statistical-Modeling）
 ```
-cd Desktop/python-template-repository
+cd Desktop/Statistical-Modeling
 ```
 
-* Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Statistical-Modeling）
 ```
 docker-compose up --build
 ```
